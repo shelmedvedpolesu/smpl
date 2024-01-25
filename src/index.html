@@ -49,13 +49,25 @@
                     </nav>
             
                     <div class="menu__networks">
-                        <a href=""><img src="icons/social/github.svg" alt=""></a>
-                        <a href=""><img src="icons/social/telegram.svg" alt=""></a>
+                        <a href=""><img class="menu__networks-icon" src="icons/social/github.svg" alt=""></a>
+                        <a href=""><img class="menu__networks-icon" src="icons/social/telegram.svg" alt=""></a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+
+    <div class="overlay">
+        <div class="modal">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Login</div>
+            <form class="feed-form" action="#">
+                <input name="name" required placeholder="Name" type="text">
+                <input name="email" required placeholder="E-mail" type="email">
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
     
     <script src="js/script.js"></script>
 </body>

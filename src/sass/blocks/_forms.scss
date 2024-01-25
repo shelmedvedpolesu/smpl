@@ -1,0 +1,21 @@
+.feed-form {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    width: 303px;
+
+    input, button {
+        height: 54px;
+        color: #4B4B4B;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        padding: 0 21px;
+        border-radius: 5px;
+        border: none;
+    }
+    button {
+        background-color: #4B4B4B;
+        color: white;
+    }
+}
